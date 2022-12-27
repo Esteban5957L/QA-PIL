@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2022-12-26 22:51:10</p>
+                <p class='attribute'><strong>Duration: </strong>130.52 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 3, Pass: 2, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.Sprint3</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_BluetoothSpeakers</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Thonet & Vander® :: Tecnología Alemana
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_HomeTheater</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=108.0.1462.54)
+Stacktrace:
+Backtrace:
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF735F491D2+14306]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735ED0992+842866]
+	(No symbol) [0x00007FF735B81D90]
+	(No symbol) [0x00007FF735B5B5F4]
+	(No symbol) [0x00007FF735BE9729]
+	(No symbol) [0x00007FF735BFED52]
+	(No symbol) [0x00007FF735BE5B03]
+	(No symbol) [0x00007FF735BB73B8]
+	(No symbol) [0x00007FF735BB638E]
+	(No symbol) [0x00007FF735BB7AE4]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735E1FE18+119032]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735E0D4D6+42934]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735E106EC+55756]
+	(No symbol) [0x00007FF735C87923]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735ED844A+874282]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735EDD544+895012]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735EDD69C+895356]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735EE67BE+932510]
+	BaseThreadInitThunk [0x00007FFF15057614+20]
+	RtlUserThreadStart [0x00007FFF15C026A1+33]
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "c:\Users\Esteban5957l\Downloads\Python-Selenim\test_suite_bo.py", line 43, in test_HomeTheater
+    title =  self.driver.title
+  File "C:\Users\Esteban5957l\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\selenium\webdriver\remote\webdriver.py", line 466, in title
+    return self.execute(Command.GET_TITLE).get("value", "")
+  File "C:\Users\Esteban5957l\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Esteban5957l\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=108.0.1462.54)
+Stacktrace:
+Backtrace:
+	Microsoft::Applications::Events::EventProperties::SetProperty [0x00007FF735F491D2+14306]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735ED0992+842866]
+	(No symbol) [0x00007FF735B81D90]
+	(No symbol) [0x00007FF735B5B5F4]
+	(No symbol) [0x00007FF735BE9729]
+	(No symbol) [0x00007FF735BFED52]
+	(No symbol) [0x00007FF735BE5B03]
+	(No symbol) [0x00007FF735BB73B8]
+	(No symbol) [0x00007FF735BB638E]
+	(No symbol) [0x00007FF735BB7AE4]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735E1FE18+119032]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735E0D4D6+42934]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735E106EC+55756]
+	(No symbol) [0x00007FF735C87923]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735ED844A+874282]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735EDD544+895012]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735EDD69C+895356]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF735EE67BE+932510]
+	BaseThreadInitThunk [0x00007FFF15057614+20]
+	RtlUserThreadStart [0x00007FFF15C026A1+33]
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_Lanzamientos</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Thonet & Vander® :: Tecnología Alemana
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 3, Pass: 2, Error: 1 -- Duration: 130.52 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
